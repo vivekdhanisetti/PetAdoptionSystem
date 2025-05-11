@@ -1,0 +1,113 @@
+/* SignUpForm.css */
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Sign-up card style */
+.signup-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect on card */
+.signup-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Header styling */
+.signup-header {
+  text-align: center;
+  color: #4CAF50;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Subtext below header */
+.signup-subtext {
+  text-align: center;
+  color: #555;
+  font-size: 0.95em;
+  margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.signup-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Input focus effect */
+.signup-input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Button styling */
+.signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover effect */
+.signup-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+/* Button active effect */
+.signup-btn:active {
+  transform: translateY(1px);
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .signup-card {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .signup-header {
+    font-size: 1.6em;
+  }
+
+  .signup-btn {
+    font-size: 1em;
+  }
+
+  .signup-subtext {
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,57 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #fef9f4;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.heroContent {
+  max-width: 600px;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  color: #4f46e5;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: #374151;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heroButton {
+  background-color: #4f46e5;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.heroButton:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
+
+.heroImageContainer {
+  flex: 1;
+  max-width: 500px;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
